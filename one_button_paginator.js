@@ -44,7 +44,7 @@
 				function show_more() {
 					$(settings.element).filter(':hidden').slice(0, settings.per_page).show();
 					// если скрытых элементов больше нет, то кнопку скрываем
-					if (!$(settings.element).filter(':hidden').length) button.hide();
+					if ( ! $(settings.element).filter(':hidden').length) button.hide();
 				};
 			});
 		}
